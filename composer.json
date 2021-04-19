@@ -1,0 +1,28 @@
+{
+    "name": "kapitanpulido/storagefile",
+    "description": "Laravel Storage File Upload",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kapitan Pulido",
+            "email": "kapitanpulido@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+          "psr-4": {
+          "App\\": "app/",
+          "kapitanpulido\\StorageFile\\": "src/"
+      }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "kapitanpulido\\StorageFile\\StorageFileServiceProvider"
+            ],
+            "aliases": {}
+        }
+    },
+    "require": {}
+}
